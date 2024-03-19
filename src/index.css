@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff4f0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.containerGeneral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerAccueil{
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #c2ddff;
+}
+
+#add{
+  display: block;
+  font-size: 30px;
+  color: #eb9a08;
+}
+
+#delete{
+  font-size: 30px;;
+}
+
+#btnDelete{
+  background-color: #ff006a;
+}
+
+.containerInput{
+  display: flex;
+  align-items: center;
+}
+
+li{
+  font-size: 30px;
+  color: #eb9a08;
+  text-align: justify;
+}
+
+h1{
+  color: #eb9a08;
+}
+
+input{
+  margin-top: 5px;
+  font-size: 20px;
 }
